@@ -30,7 +30,7 @@ jobs:
       - name: Configure git user
         run: |
           git config --global user.email "octavio.deliberato@aggxtream.com"
-          git config --global user.name "octaviodeliberato"
+          git config --global user.name "Octavio Deliberato Neto"
       - run: |
           bash -x run.sh create-repo-if-not-exists
         env:
@@ -49,7 +49,7 @@ jobs:
       - name: Configure git user
         run: |
           git config --global user.email "octavio.deliberato@aggxtream.com"
-          git config --global user.name "octaviodeliberato"
+          git config --global user.name "Octavio Deliberato Neto"
       - run: |
           bash -x run.sh configure-repo
         env:
@@ -68,7 +68,7 @@ jobs:
       - name: Configure git user
         run: |
           git config --global user.email "octavio.deliberato@aggxtream.com"
-          git config --global user.name "octaviodeliberato"
+          git config --global user.name "Octavio Deliberato Neto"
       - run: |
           bash -x run.sh open-pr-with-generated-project
         env:
